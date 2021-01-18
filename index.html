@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FIZZ - BUZZ</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <img src="img/fizzbuzz_logo.jpg" class="responsive" alt="LOL" />
+    <h1>Fizz Buzz</h1>
+    <div class="rev-style">
+      <div class="rev-style-headingB">
+        DO U EVEN FIZZBUZZ THO
+        <p>This program prints out numbers from 1 to 100.</p>
+        <p>Enter a number (preferably any number between 1-100) in each field, and enjoy the FizzBuzz.</p>
+        <p>Seasoned FizzBuzzers usually choose a first number of "3" and a second number of "5."</p>
+        <p></p>
+
+        <label><span>Enter a number:</span><input id="FizzValue" name="fizz" value="3" type="number" /></label>
+        <label><span>Enter another number:</span><input id="BuzzValue" name="buzz" value="5" type="number" /></label>
+        <label for="span"><input onClick="buzzIt()" type="submit" value="Buzz It" id="buzzIt" /></label>
+        <button id="reset"><a href="index.html">Reset</a></button>
+        <label><span>Results:</span></label>
+        <br />
+        <p id="results"></p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
