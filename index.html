@@ -13,8 +13,11 @@
       <div class="rev-style-headingB">DO YOU EVEN FIZZBUZZ THO</div>
       <p>Enter a number from 1 to 10 in each field, and enjoy the FizzBuzz!</p>
 
-      <label><span>Enter a Number: </span><input id="Fizzvalue" name="fizz" value="3" type="number" /></label>
-      <label><span>Enter another Number: </span><input id="Buzzvalue" name="buzz" value="5" type="number" /></label>
+      <label><span>Enter a number: </span><input type="number" id="Fizzvalue" name="fizz" value="3" /></label>
+      <label><span>Enter another number: </span><input type="number" id="Buzzvalue" name="buzz" value="5" /></label>
+      <label><span></span><input type="submit" onClick="buzzIt()" value="Buzz It" /></label>
+      <label><span>Results: </span></label><br />
+      <p id="results"></p>
     </div>
 
     <script src="js/main.js"></script>

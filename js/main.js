@@ -38,10 +38,10 @@ function fizzBuzzA(val1, val2) {
 
 function buzzIt() {
   let output = ""
-  let val1 = document.getElementById("FizzValue").value
-  let val2 = document.getElementById("BuzzValue").value
+  let val1 = document.getElementById("Fizzvalue").value
+  let val2 = document.getElementById("Buzzvalue").value
   output = fizzBuzzA(val1, val2)
   document.getElementById("results").innerHTML = output
-  document.getElementById("reset").style.display = "block"
-  document.getElementById("buzzIt").style.display = "none"
+  // document.getElementById("reset").style.display = "block"
+  // document.getElementById("buzzIt").style.display = "none"
 }
