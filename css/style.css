@@ -13,12 +13,17 @@ img {
   margin: 0 auto;
 }
 
+strong {
+  color: #ff0000;
+}
+
+/* ============= */
+
 #results {
   border-collapse: collapse;
   width: 100%;
   background-color: gainsboro;
   padding: 5px;
-  display: none;
   margin-top: 20px;
 }
 
