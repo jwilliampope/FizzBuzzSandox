@@ -36,12 +36,74 @@ function fizzBuzzA(val1, val2) {
 
 // Call and use our FizzBuzz
 
-function buzzIt() {
+// function buzzIt() {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// function buzzIt() {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// function buzzIt() {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// function buzzIt() {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// function buzzIt() {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// buzzIt = () => {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// buzzIt = () => {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+// buzzIt = () => {
+//   let output = ""
+//   let val1 = document.getElementById("Fizzvalue").value
+//   let val2 = document.getElementById("Buzzvalue").value
+//   output = fizzBuzzA(val1, val2)
+//   document.getElementById("results").innerHTML = output
+// }
+
+buzzIt = () => {
   let output = ""
   let val1 = document.getElementById("Fizzvalue").value
   let val2 = document.getElementById("Buzzvalue").value
   output = fizzBuzzA(val1, val2)
   document.getElementById("results").innerHTML = output
-  // document.getElementById("reset").style.display = "block"
-  // document.getElementById("buzzIt").style.display = "none"
 }
