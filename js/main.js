@@ -1,14 +1,14 @@
 function fizzBuzzA(value1, value2) {
   let returnValue = ""
   for (let i = 0; i <= 100; i++) {
-    if (i % value1 == 0 && i % value2 == 0) {
-      returnValue += `<strong>Fizz-Buzz </strong>`
-    } else if (i % value1 == 0) {
-      returnValue += "Fizz "
-    } else if (i % value2 == 0) {
-      returnValue += "Buzz "
+    if (i % value1 === 0 && i % value2 === 0) {
+      returnValue += `<strong>FIZZ BUZZ</strong> `
+    } else if (i % value1 === 0) {
+      returnValue += `fizz `
+    } else if (i % value2 === 0) {
+      returnValue += `buzz `
     } else {
-      returnValue += i + " "
+      returnValue += `${i} `
     }
   }
 
