@@ -1,109 +1,25 @@
-// ANIA
-
-// for (let i = 1; i <= 100; i++) {
-//   if (i % 15 === 0) {
-//     console.log(`${i} fizz-buzz`)
-//   } else if (i % 3 === 0) {
-//     console.log(`${i} fizz`)
-//   } else if (i % 5 === 0) {
-//     console.log(`${i} buzz`)
-//   } else {
-//     console.log(`${i} try again`)
-//   }
-// }
-
-// SHORTEST POSSIBLE (altho "let" can be dropped but will jam up with useStrict)
-
-// for (let i = 0; i < 100; ) console.log((++i % 3 ? "" : "fizz") + (i % 5 ? "" : "buzz") || i)
-
-// CODER FOUNDRY
-
-function fizzBuzzA(val1, val2) {
-  let returnVal = ""
-  for (let i = 1; i <= 100; i++) {
-    if (i % val1 == 0 && i % val2 == 0) {
-      returnVal += "FizzBuzz "
-    } else if (i % val1 == 0) {
-      returnVal += "Fizz "
-    } else if (i % val2 == 0) {
-      returnVal += "Buzz "
+function fizzBuzzA(value1, value2) {
+  let returnValue = ""
+  for (let i = 0; i <= 100; i++) {
+    if (i % value1 == 0 && i % value2 == 0) {
+      returnValue += "Fizz-Buzz "
+    } else if (i % value1 == 0) {
+      returnValue += "Fizz "
+    } else if (i % value2 == 0) {
+      returnValue += "Buzz "
     } else {
-      returnVal += i + " "
+      returnValue += i + " "
     }
   }
-  return returnVal
+
+  return returnValue
 }
 
-// Call and use our FizzBuzz
-
-// function buzzIt() {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// function buzzIt() {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// function buzzIt() {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// function buzzIt() {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// function buzzIt() {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// buzzIt = () => {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// buzzIt = () => {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-// buzzIt = () => {
-//   let output = ""
-//   let val1 = document.getElementById("Fizzvalue").value
-//   let val2 = document.getElementById("Buzzvalue").value
-//   output = fizzBuzzA(val1, val2)
-//   document.getElementById("results").innerHTML = output
-// }
-
-buzzIt = () => {
+function buzzIt() {
   let output = ""
-  let val1 = document.getElementById("Fizzvalue").value
-  let val2 = document.getElementById("Buzzvalue").value
-  output = fizzBuzzA(val1, val2)
+  let value1 = document.getElementById("fizzValue").value
+  let value2 = document.getElementById("buzzValue").value
+  output = fizzBuzzA(value1, value2)
+  document.getElementById("results").style.display = "block"
   document.getElementById("results").innerHTML = output
 }
